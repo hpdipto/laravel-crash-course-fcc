@@ -7,8 +7,9 @@
             <img src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" style="width: 50%;" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div>
+            <div class="d-flex justify-content-between align-items-baseline">
                 <h1>{{ $user->username }}</h1>
+                <a href="#">Add New Post</a>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153 posts</strong></div>
