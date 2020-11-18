@@ -29,3 +29,7 @@ Route::get('/p/{post}', 'App\Http\Controllers\PostsController@show');
 
 
 Route::post('follow/{user}', 'App\Http\Controllers\FollowsController@store');
+
+Route::get('/email', function() {
+	return new App\Mail\NewUserWelcomeMail();
+});
